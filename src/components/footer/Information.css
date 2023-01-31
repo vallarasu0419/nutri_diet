@@ -1,0 +1,30 @@
+.information {
+    padding: 55px;
+    height: 230px;
+    /* background-color: rosybrown; */
+}
+
+.informationh3 {
+    color:rgb(6, 64, 6);
+}
+
+.underline {
+    margin-top: 10px;
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color:black;
+}
+.informationli{
+    list-style: none;
+    padding-top: 15px;
+}
+@media screen and (max-width:600px) {
+    .information {
+        padding: 0px;
+        padding-left: 50px;
+        margin-top: -30px;
+        height: 230px;
+      
+    }
+}

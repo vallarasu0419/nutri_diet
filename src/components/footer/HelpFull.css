@@ -1,0 +1,61 @@
+.helpfull {
+    padding: 55px;
+    height: 230px;
+    /* background-color: rosybrown; */
+}
+
+.helpfullh3 {
+    color:rgb(6, 64, 6);
+}
+
+.helpfullspan {
+    margin-top: 10px;
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color:black;
+}
+.call{
+    padding-top: 20px;
+}
+.mail{
+    display: block;
+    padding-top: 20px;
+}
+.helpfacebook{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(35,160,206);
+    margin-top: 20px;
+}
+.helptwitter{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(136,217,247);
+    margin-top: 20px;
+}
+.helppin{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(244,34,93);
+    margin-top: 20px;
+}
+.helplinkedin{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(24,147,218);
+    margin-top: 20px;
+}
+@media screen and (max-width:600px) {
+    .helpfull {
+        padding: 0px;
+        padding-left: 50px;
+        margin-top: -10px;
+        height: 230px;
+      
+    }
+}

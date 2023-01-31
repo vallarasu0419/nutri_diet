@@ -1,0 +1,121 @@
+.page6 {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.page6head::before {
+    content: '';
+    position: relative;
+    left: 60px;
+    top: 40px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-right: 0px;
+    background-image: url('../asset/green-bg.png');
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+}
+
+.page6head {
+    text-align: center;
+}
+
+.page6para {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sliders {
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.slick-slide>div {
+    margin: 0 20px;
+}
+
+.page6div {
+    /* width: 10%;
+    height: 50vh; */
+    margin-top: 20px;
+    background-color: rgb(237, 247, 248);
+}
+
+.page6outer {
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 90px;
+    height: 70px;
+    border-style: solid;
+    border-width: 0px 18px 12px 18px;
+    border-color: rgb(254, 196, 60);
+    border-radius: 0px 0px 100px 100px;
+    margin-top: 60px;
+}
+
+.page6inner {
+    position: relative;
+    top: -30px;
+    left: -4px;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.page6image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.page6h4 {
+    padding-top: 10px;
+    text-align: center;
+    line-height: 2;
+}
+
+.page6p {
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .page6{
+        margin-top: -20px;
+    }
+    .sliders {
+        background-color: white;
+        width: 80%;
+        padding: 30px;
+        row-gap: 20px;
+    }
+
+    .page6head {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .page6head::before {
+        content: '';
+        position: relative;
+        left: 40px;
+        top: 55px;
+        display: inline-block;
+        height: 100px;
+        width: 70px;
+        margin-right: 0px;
+        background-image: url('../asset/green-bg.png');
+        background-size: 70px 70px;
+        background-repeat: no-repeat;
+    }
+}

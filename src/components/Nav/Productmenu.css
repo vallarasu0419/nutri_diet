@@ -1,0 +1,155 @@
+.mainproductmenu1 {
+    position: absolute;
+    z-index: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -750px;
+    margin-top: 30px;
+    width: 85%;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.productmenu1 {
+    background-color: #fff;
+    width: 240px;
+    height: 390px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #eee;
+    border-radius: 5px 5px 5px 5px;
+    font-family: jost, sans-serif;
+    position: relative;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: auto; */
+}
+
+.productmenu1:hover {
+    -webkit-animation: productmenu1 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes productmenu1 {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translateZ(50px);
+        transform: translateZ(50px);
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 5);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 5);
+    }
+}
+
+
+.productmenu1span {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.2rem;
+    color: #fff;
+    background-color: #0A4D3C;
+    border-radius: 20px;
+}
+
+.productmenu1img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.productmenu1h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #333;
+    margin: 25px 0 12px;
+    padding: 0;
+}
+
+/* .productmenu1rating {
+    top: 0;
+    left: 65px;
+    position: absolute;
+}
+
+.productmenu1span1 {
+    line-height: 1rem;
+} */
+
+.viewcart {
+    display: none;
+}
+
+.productmenu1btn {
+    color: #fff;
+    background-color: rgb(11, 76, 60);
+    /* display: block; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    /* padding: 10px; */
+    width: 220px;
+    height: 40px;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.productmenu1btn:hover {
+    background-color: rgb(254, 162, 0);
+}
+
+@media screen and (max-width:1300px) {
+    .mainproductmenu1 {
+        position: absolute;
+        z-index: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: -650px;
+        margin-top: 20px;
+        width: 100%;
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width:1200px) {
+    .mainproductmenu1 {
+        position: absolute;
+        z-index: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: -600px;
+        margin-top: 20px;
+        width: 105%;
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width:1030px) {
+    .mainproductmenu1 {
+        position: absolute;
+        z-index: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: -600px;
+        margin-top: 20px;
+        width: 125%;
+        background-color: lightblue;
+    }
+}

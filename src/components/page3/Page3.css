@@ -1,0 +1,135 @@
+
+.asdf {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(236, 246, 248);
+    background-image: url("../asset/page3bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+
+}
+.page3_contant h1::before{
+    content: '';
+    margin-left: -75px;
+    position: relative;
+    left: 60px;
+    top: 40px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-right: 0px;
+    background-image: url('../asset/green-bg.png');
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+}
+
+/* ####################################################### */
+.page3_contant {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 2s;
+}
+
+.showed {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.skill {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 2s;
+}
+
+.showeds {
+    transform: translateY(0);
+    opacity: 1;
+}
+/* ####################################################### */
+
+.asdf h1 {
+    position: relative;
+    top: 0px;
+    color: rgb(6, 64, 6);
+}
+
+.asdf p {
+    position: relative;
+    top: 20px;
+}
+
+.page3img {
+    width: 100%;
+    height: auto;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 7rem;
+    margin-top: 120px;
+}
+
+.skill h3 {
+    color:  rgb(6, 64, 6);
+}
+
+.outer {
+    margin-left: 20px;
+    background-color: white;
+    width: 90px;
+    height: 70px;
+    border-style: solid;
+    border-width: 0 25px 20px 25px;
+    border-color: #ffc53c;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.inner {
+    position: relative;
+    top: -30px;
+    left: -4px;
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+@media screen and (max-width:600px) {
+    .asdf h1 {
+        position: relative;
+        top: 10px;
+    }
+
+    .asdf p {
+        position: relative;
+        top: 20px;
+    }
+    .skill h3 {
+        color: rgb(196, 185, 232);
+    }
+    .skill {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .asdf h1 {
+        position: relative;
+        top: 40px;
+    }
+
+    .asdf p {
+        position: relative;
+        top: 50px;
+    }
+}

@@ -1,0 +1,68 @@
+.page5 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.page5contant {
+    color: white;
+    width: 60%;
+    height: auto;
+    overflow: none;
+    background-color: rgb(6, 64, 6);
+}
+
+.page5contant h1 {
+    padding-top: 60px;
+    padding-left: 30px;
+    line-height: 2;
+    font-size: 40px;
+    text-align: left;
+}
+
+.page5contant p {
+    padding-left: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.page5contant button {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    line-height: 2.5;
+    border-radius: 10px;
+    background-color: rgb(254, 162, 0);
+}
+
+.page5contant button:hover {
+    background-color: white;
+}
+
+.page5contant span {
+    line-height: 5;
+    padding-left: 30px;
+}
+
+.page5 img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:770px) {
+    .page5 {
+        display: block;
+        margin-top: 0px;
+    }
+    .page5 img {
+        display: none;
+    }
+    .page5contant {
+        width: 100%;
+        height: auto;
+        overflow: none;
+    }
+    .page5contant h1 {
+        padding-top: 30px;
+
+    }
+}

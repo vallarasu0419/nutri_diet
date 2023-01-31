@@ -1,0 +1,139 @@
+.page4 {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.page4topcontant {
+    text-align: center;
+}
+
+.page4topcontant h2 {
+    font-size: 40px;
+    color: rgb(7, 65, 7);
+}
+
+.page4topcontant h2::before {
+    content: '';
+    position: relative;
+    left: 60px;
+    top: 40px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-right: 0px;
+    background-image: url('../asset/green-bg.png');
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+}
+
+.page4topcontant p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.page4div {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.border {
+    width: 25vw;
+    height: 48vh;
+    border-style: solid;
+    border-width: 6px 6px 6px 6px;
+    border-color: rgb(6, 64, 6);
+    border-radius: 1px 1px 1x 1px;
+}
+
+.image45 {
+    margin-top: -30px;
+    margin-left: -50px;
+    width: 25vw;
+    height: 48vh;
+}
+
+.page4_contant {
+    margin-left: -2px;
+    background-color: rgb(249, 248, 249);
+    padding: 20px;
+}
+
+.page4_contant h2 {
+    line-height: 2;
+    color: rgb(7, 65, 7);
+}
+
+.page4div span {
+    line-height: 5;
+}
+
+.page4btn {
+    background-color: rgb(254, 162, 0);
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.page4btn:hover {
+    background: rgb(6, 64, 6);
+    color: white;
+}
+
+@media screen and (max-width:1024px) {
+    .page4div {
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .border {
+        width: 25vw;
+        height: 48vh;
+        border-style: solid;
+        border-width: 6px 6px 6px 6px;
+        border-color: rgb(6, 64, 6);
+        border-radius: 1px 1px 1x 1px;
+    }
+    
+    .image45 {
+        margin-top: -30px;
+        margin-left: -50px;
+        width: 25vw;
+        height: 48vh;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .page4div {
+        display: block;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .border {
+        margin-left: 30px;
+        width: 80vw;
+        height: 48vh;
+        border-style: solid;
+        border-width: 6px 6px 6px 6px;
+        border-color: rgb(6, 64, 6);
+        border-radius: 1px 1px 1x 1px;
+    }
+
+    .image45 {
+        padding-left: 10px;
+        margin-top: -30px;
+        margin-left: -50px;
+        width: 80vw;
+        height: 48vh;
+    }
+}

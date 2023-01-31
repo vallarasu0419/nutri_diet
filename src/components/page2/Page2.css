@@ -1,0 +1,229 @@
+.page2_maingrid {
+    margin-top: 100px;
+    /* margin-top: 650px; */
+    justify-content: center;
+}
+.abcd:hover{
+    background-color: rgb(70,171,235);
+}
+/* ####################################################### */
+
+/* .page2-grid1 {
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 2s;
+}
+.showss {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.page2-grid2 {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 2s;
+}
+
+.shows {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.page2-grid3 {
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 2s;
+}
+
+.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.page2-grid5{
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 2s;
+}
+ .showsss{
+    transform: translateX(0);
+    opacity: 1;
+} */
+
+/* ####################################################### */
+
+.page2btn {
+    background-color: rgb(254, 162, 0);
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.page2btn:hover {
+    background: rgb(6, 64, 6);
+    color: white;
+}
+
+.page2-imagegirl {
+    height: 50vh;
+    width: 140%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page2-grid5 {
+    width: 45%;
+    height: 20%;
+    padding: 10px;
+    position: relative;
+    top: 35px;
+    left: 220px;
+}
+
+.page2-grid5h1 {
+    font-size: 2rem;
+    color: rgb(6, 64, 6);
+    line-height: 2;
+}
+
+.page2-grid5p {
+    font-size: 16px;
+}
+
+.page2-grid5 h1::before {
+    margin-left: -65px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+    display: inline-block;
+    height: 70px;
+    width: 80px;
+    margin-right: 0px;
+    content: "";
+    background-image: url('../asset/green-bg.png');
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+}
+
+.page2-grid5 span {
+    line-height: 5;
+}
+
+@media screen and (max-width:1024px) {
+    .page2-imagegirl {
+        height: 50vh;
+        width: 140%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .page2-grid5 {
+        top: 35px;
+        left: 150px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .page2-imagegirl {
+        height: 50vh;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .page2_bottomgrid{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page2-grid5 {
+        width: 70%;
+        height: 40vh;
+        top: 5px;
+        left: 0px;
+    }
+}
+@media screen and (max-width:600px) {
+    .page2_maingrid {
+        margin-top: 60px;
+        justify-content: center;
+    }
+    .page2-imagegirl {
+        height: 45vh;
+        width: 115%;
+        margin-top: 20px;
+        margin-left: -20px;
+
+    }
+    .page2_bottomgrid{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page2-grid5 {
+        width: 90%;
+        height: 45vh;
+        top: 10px;
+        left: 0px;
+    }
+    .page2-grid5 h1::before {
+        margin-left: -10px;
+        position: absolute;
+        left: 20px;
+        top: 0px;
+        height: 80px;
+        width: 60px;
+        background-size: 60px 60px;
+    }
+    .page2-grid5h1 {
+        font-size: 25px;
+        color: rgb(6, 64, 6);
+        padding-left: 20px;
+    }
+/* ######################################## */
+    /* .page2-grid1 {
+        transform: translateX(-30px);
+        opacity: 0;
+        transition: 2s;
+    }
+    
+    .showss {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+    .page2-grid2 {
+        transform: translateY(30px);
+        opacity: 0;
+        transition: 2s;
+    }
+    
+    .shows {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    .page2-grid3 {
+        transform: translateX(30px);
+        opacity: 0;
+        transition: 2s;
+    }
+    
+    .show {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+    .page2-grid5{
+        transform: translateX(30px);
+        opacity: 0;
+        transition: 2s;
+    }
+     .showsss{
+        transform: translateX(0);
+        opacity: 1;
+    } */
+    
+
+}

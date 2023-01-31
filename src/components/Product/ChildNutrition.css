@@ -1,0 +1,359 @@
+.ChildNutrition_menu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+        url('../asset/fullbg.avif');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80vh;
+}
+
+.ChildNutrition_menudiv {
+    transform: translateY(15rem);
+    text-align: center;
+}
+
+.ChildNutrition_menuh3 {
+    font-size: 42px;
+    color: white;
+    font-weight: 700;
+    font-family: "Jost", Sans-serif;
+}
+
+.ChildNutrition_menup {
+    font-size: 20px;
+    font-family: "Jost", Sans-serif;
+    color: white;
+}
+
+.ChildNutrition_container {
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.ChildNutrition_containerdiv {
+    display: flex;
+}
+
+.ChildNutrition_img {
+    cursor: pointer;
+    width: 45%;
+    height: 70vh;
+}
+
+.ChildNutrition_details {
+    margin-top: 30px;
+    padding: 20px;
+    line-height: 2rem;
+    position: relative;
+}
+
+.ChildNutrition_rating {
+    margin-top: 20px;
+}
+
+.ChildNutrition_span1 {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.ChildNutrition__p1,
+.ChildNutrition__p2 {
+    font-size: 18px;
+}
+
+.ChildNutrition_input {
+    width: 60px;
+    height: 35px;
+    padding-left: 9px;
+    font-weight: 600;
+    font-size: 16px;
+    /* border:none; */
+}
+
+.ChildNutrition_btn {
+    color: #fff;
+    background-color: rgb(11, 76, 60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.ChildNutrition_btn1 {
+    color:white;
+    background-color: rgb(11, 76, 60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    padding-left: 10px;
+    width: 140px;
+    height: 40px;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.doneicon{
+    /* color: red; */
+    padding-left: 6px;
+    position:absolute;
+    top: 20px;
+}
+
+.ChildNutrition_viewcart {
+
+    display: none;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.ChildNutrition__p3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ChildNutrition_span3 {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f4b323;
+}
+
+.ChildNutrition_span3:hover {
+    color: black;
+}
+
+/* ############# { ChildNutrition_container1 }  ##################### */
+
+.ChildNutrition_container1 {
+    margin-top: 20px;
+}
+
+.tab-content {
+    display: none;
+    line-height: 1.5rem;
+    margin-top: 30px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-trigger.active {
+    background: #f4b323 !important;
+    color: #515151;
+    z-index: 2;
+    border-bottom-color: #fff;
+    border-radius: 10%;
+}
+
+.description-h4 {
+    margin-top: 10px;
+}
+
+.description-p {
+    margin-top: 10px;
+}
+
+.line {
+    margin-left: -5px;
+    margin-top: -2px;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+}
+
+/*################ {Fading effect} ################*/
+.tab-content {
+    animation: fadeEffect 2s;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* ############# { Reviews (0) content }  ##################### */
+.revies-p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.revies-h5 {
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.revies-textarea {
+    padding: 10px;
+    width: 90%;
+    height: 10vh;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.revies-lable {
+    margin-top: 20px;
+}
+
+.revies-input {
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 190px;
+}
+
+.revies-checkbox {
+    margin-top: 20px;
+}
+
+.revies-btn {
+    margin-top: 20px;
+    background: rgb(6, 64, 6);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 5vh;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.revies-btn:hover {
+    background-color: rgb(254, 162, 0);
+}
+
+/* ############# { related product }  ##################### */
+.relatedproduct-div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.relatedproduct {
+    /* height: 100vh; */
+    background-color: #fff;
+    width: 250px;
+    height: 500px;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #eee;
+    border-radius: 5px 5px 5px 5px;
+    font-family: jost, sans-serif;
+    position: relative;
+}
+
+.relatedproductspan {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -20px;
+    /* margin-left: 30px; */
+    min-height: 3.236em;
+    min-width: 3.236em;
+    padding: 10px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #0A4D3C;
+    border-radius: 50%;
+}
+
+.relatedproductimg {
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.relatedproducth2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0.5;
+    color: #333;
+    margin: 25px 0 12px;
+}
+
+/* .relatedproductrating {
+    float: left;
+    bottom: 1;
+    left: 65px;
+    position: absolute;
+} */
+
+/* .relatedproductspan1 {
+    line-height: 1rem;
+} */
+
+.relatedproductbtn {
+    color: #fff;
+    background-color: rgb(11, 76, 60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    width: 130px;
+    height: 35px;
+    margin-top: 4px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.relatedproductbtn:hover {
+    background-color: rgb(254, 162, 0);
+}
+
+
+@media screen and (max-width:950px) {
+    .relatedproduct-div {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .ChildNutrition_containerdiv {
+        display: block;
+        padding-left: 40px;
+    }
+
+    .ChildNutrition_img {
+        cursor: pointer;
+        width: 90%;
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .relatedproduct-div {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .ChildNutrition_containerdiv {
+        display: block;
+        padding-left: 10px;
+    }
+}

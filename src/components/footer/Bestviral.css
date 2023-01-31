@@ -1,0 +1,52 @@
+.bestviral {
+    padding: 55px;
+    height: 230px;
+    /* background-color: rosybrown; */
+}
+
+.bestviralh3 {
+    color: rgb(6, 64, 6);
+}
+
+.bestviralspan {
+    margin-top: 10px;
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: black;
+}
+
+.input {
+    padding-left: 5px;
+    width: 167px;
+    height: 30px;
+    margin-top: 25px;
+   
+}
+.input:hover{
+    border-width: 3px;
+    border-color:rgb(22, 168, 226) ;
+}
+
+.bestbtn {
+    margin-top: 20px;
+    width: 169px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(22, 168, 226);
+
+}
+.bestbtn:hover {
+    background-color:red;
+}
+
+@media screen and (max-width:600px) {
+    .bestviral {
+        padding: 0px;
+        padding-left: 50px;
+        margin-top: -10px;
+        height: 230px;
+      
+    }
+}

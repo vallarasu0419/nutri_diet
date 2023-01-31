@@ -1,0 +1,27 @@
+.aboutus {
+    padding: 50px;
+    /* background-color: violet; */
+}
+
+.aboutush3 {
+    color: rgb(6, 64, 6);
+}
+
+.aboutusunderline {
+    margin-top: 10px;
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color:black;
+    
+}
+@media screen and (max-width:600px) {
+    .aboutus {
+        padding: 50px;
+        /* background-color: violet; */
+    }
+    .aboutusimage{
+        width: 70px;
+        height: 70px;
+    }
+}
